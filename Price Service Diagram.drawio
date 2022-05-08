@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T08:47:49.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="sgqVixyDkJHGqhmeGdSf" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-08T08:49:18.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="rxNAnn8sDHSL60uMujuh" version="18.0.2" type="github">
   <diagram id="vYhIYeuhMKYq1YM2tLH0" name="Page-1">
     <mxGraphModel dx="2581" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -164,9 +164,6 @@
             <mxPoint x="66" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_z4hVBfj4zbMvKIP9uUs-53" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;fontSize=14;fontColor=#1A1A1A;strokeColor=#1A1A1A;fillColor=#A9C4EB;" parent="1" vertex="1">
-          <mxGeometry x="1950" y="755" width="80" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="4Exm1XWhO8w6I6COdfnv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.478;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;fontSize=14;" edge="1" parent="1" source="_z4hVBfj4zbMvKIP9uUs-2" target="_z4hVBfj4zbMvKIP9uUs-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -229,6 +226,15 @@
         </mxCell>
         <mxCell id="4Exm1XWhO8w6I6COdfnv-4" value="Set : No Price Token Addresses" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="4Exm1XWhO8w6I6COdfnv-28">
           <mxGeometry x="75" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4Exm1XWhO8w6I6COdfnv-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1940" y="755" width="90" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="_z4hVBfj4zbMvKIP9uUs-53" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;fontSize=14;fontColor=#1A1A1A;strokeColor=#1A1A1A;fillColor=#A9C4EB;" parent="4Exm1XWhO8w6I6COdfnv-31" vertex="1">
+          <mxGeometry x="10" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4Exm1XWhO8w6I6COdfnv-30" value="Server client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="4Exm1XWhO8w6I6COdfnv-31">
+          <mxGeometry y="115" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
