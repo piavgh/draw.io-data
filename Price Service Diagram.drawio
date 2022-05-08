@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T08:38:39.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="OWRLF1E42GfqPGO4Aauq" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-08T08:45:30.403Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="enP5mpxktwIJdFY47mnU" version="18.0.2" type="github">
   <diagram id="vYhIYeuhMKYq1YM2tLH0" name="Page-1">
-    <mxGraphModel dx="1731" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2581" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,8 +23,10 @@
             <mxPoint x="153" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_z4hVBfj4zbMvKIP9uUs-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="_z4hVBfj4zbMvKIP9uUs-5" target="_z4hVBfj4zbMvKIP9uUs-33" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_z4hVBfj4zbMvKIP9uUs-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="_z4hVBfj4zbMvKIP9uUs-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="676" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_z4hVBfj4zbMvKIP9uUs-47" value="Save price data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#1A1A1A;" parent="_z4hVBfj4zbMvKIP9uUs-37" vertex="1" connectable="0">
           <mxGeometry x="-0.22" y="-1" relative="1" as="geometry">
@@ -32,13 +34,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_z4hVBfj4zbMvKIP9uUs-5" value="Price Service&#xa;Worker" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontSize=14;fontStyle=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="580" y="650" width="160" height="70" as="geometry" />
+          <mxGeometry x="580" y="641" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_z4hVBfj4zbMvKIP9uUs-7" value="Price Service&#xa;Worker" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontSize=14;fontStyle=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="360" y="650" width="160" height="70" as="geometry" />
+          <mxGeometry x="350" y="645" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_z4hVBfj4zbMvKIP9uUs-8" value="Price Service&#xa;Worker" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontSize=14;fontStyle=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="140" y="650" width="160" height="70" as="geometry" />
+        <mxCell id="4Exm1XWhO8w6I6COdfnv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=0.977;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="_z4hVBfj4zbMvKIP9uUs-8" target="4Exm1XWhO8w6I6COdfnv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Exm1XWhO8w6I6COdfnv-25" value="Fetch external price" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="4Exm1XWhO8w6I6COdfnv-24">
+          <mxGeometry x="0.348" y="-5" relative="1" as="geometry">
+            <mxPoint x="35" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_z4hVBfj4zbMvKIP9uUs-8" value="Price Service&#xa;Worker&#xa;&#xa;(1) Calculate price&#xa;(2) Get external data for price" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontSize=14;fontStyle=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="50" y="645" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="_z4hVBfj4zbMvKIP9uUs-17" value="&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 14px;&quot;&gt;Stream of pools&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#A9C4EB;fontStyle=0" parent="1" vertex="1" connectable="0">
           <mxGeometry x="474" y="267" as="geometry" />
@@ -179,7 +189,7 @@
           <mxGeometry x="185" y="396" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="4Exm1XWhO8w6I6COdfnv-11" value="" style="group;fontSize=14;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1670" y="492" width="110" height="129" as="geometry" />
+          <mxGeometry x="1670" y="492" width="115" height="129" as="geometry" />
         </mxCell>
         <mxCell id="4Exm1XWhO8w6I6COdfnv-8" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;fontSize=14;" vertex="1" parent="4Exm1XWhO8w6I6COdfnv-11">
           <mxGeometry x="16.75" width="76.5" height="93" as="geometry" />
@@ -197,6 +207,20 @@
         </mxCell>
         <mxCell id="4Exm1XWhO8w6I6COdfnv-19" value="Serve HTTP requests" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1880.0041390480517" y="550.0035350167295" as="geometry" />
+        </mxCell>
+        <mxCell id="4Exm1XWhO8w6I6COdfnv-21" value="Coingecko&lt;br style=&quot;font-size: 14px;&quot;&gt;Coinmarketcap&lt;br style=&quot;font-size: 14px;&quot;&gt;Dextools&lt;br style=&quot;font-size: 14px;&quot;&gt;..." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="628.5" width="145" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="4Exm1XWhO8w6I6COdfnv-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=classic;startFill=1;endArrow=none;endFill=0;exitX=0;exitY=0.75;exitDx=10;exitDy=0;exitPerimeter=0;entryX=0.977;entryY=0.677;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_z4hVBfj4zbMvKIP9uUs-8" target="4Exm1XWhO8w6I6COdfnv-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-205.00000000000318" y="730.33" as="targetPoint" />
+            <mxPoint x="50" y="730.33" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Exm1XWhO8w6I6COdfnv-26" value="Return correct price" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="4Exm1XWhO8w6I6COdfnv-23">
+          <mxGeometry x="0.3758" y="3" relative="1" as="geometry">
+            <mxPoint x="25" y="10" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
