@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T08:46:42.285Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="w2-nvgMp8HqYv-w7rRAk" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-08T08:47:49.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="sgqVixyDkJHGqhmeGdSf" version="18.0.2" type="github">
   <diagram id="vYhIYeuhMKYq1YM2tLH0" name="Page-1">
     <mxGraphModel dx="2581" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -18,9 +18,14 @@
         <mxCell id="_z4hVBfj4zbMvKIP9uUs-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontStyle=0" parent="1" source="_z4hVBfj4zbMvKIP9uUs-2" target="_z4hVBfj4zbMvKIP9uUs-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_z4hVBfj4zbMvKIP9uUs-25" value="Generate tasks, each contains 1000 pools" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#1A1A1A;fontStyle=0" parent="_z4hVBfj4zbMvKIP9uUs-24" vertex="1" connectable="0">
+        <mxCell id="_z4hVBfj4zbMvKIP9uUs-25" value="Generate tasks to calculate price from pools" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#1A1A1A;fontStyle=0" parent="_z4hVBfj4zbMvKIP9uUs-24" vertex="1" connectable="0">
           <mxGeometry x="0.2641" y="1" relative="1" as="geometry">
             <mxPoint x="153" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Exm1XWhO8w6I6COdfnv-29" value="Generate tasks to fetch external APIs price" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#1A1A1A;fontStyle=0" vertex="1" connectable="0" parent="_z4hVBfj4zbMvKIP9uUs-24">
+          <mxGeometry x="0.2641" y="1" relative="1" as="geometry">
+            <mxPoint x="153" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_z4hVBfj4zbMvKIP9uUs-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="_z4hVBfj4zbMvKIP9uUs-5" edge="1">
