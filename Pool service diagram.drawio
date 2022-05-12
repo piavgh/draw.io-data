@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T16:01:20.738Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="1xQ6uhueQkB9M8_iRZZL" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-12T16:01:50.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="LX_oP41I4QewhJe1rX5H" version="18.0.3" type="github">
   <diagram id="vYhIYeuhMKYq1YM2tLH0" name="Page-1">
     <mxGraphModel dx="3431" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -267,26 +267,14 @@
         <mxCell id="h-ajWF4TZE72JSI5Cl-C-39" value="Price service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="h-ajWF4TZE72JSI5Cl-C-37">
           <mxGeometry x="-5" y="115" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="h-ajWF4TZE72JSI5Cl-C-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="h-ajWF4TZE72JSI5Cl-C-36" target="h-ajWF4TZE72JSI5Cl-C-29">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-540" y="435" />
-              <mxPoint x="-540" y="528" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="h-ajWF4TZE72JSI5Cl-C-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="h-ajWF4TZE72JSI5Cl-C-38">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-540" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="h-ajWF4TZE72JSI5Cl-C-43" value="Consume pool changes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="h-ajWF4TZE72JSI5Cl-C-42">
-          <mxGeometry x="-0.8338" relative="1" as="geometry">
-            <mxPoint x="68" y="-19" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="h-ajWF4TZE72JSI5Cl-C-44" value="Consume pool changes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-670" y="450" as="geometry" />
+          <mxGeometry x="-680" y="517.5" as="geometry" />
+        </mxCell>
+        <mxCell id="h-ajWF4TZE72JSI5Cl-C-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.447;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="h-ajWF4TZE72JSI5Cl-C-29" target="h-ajWF4TZE72JSI5Cl-C-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-ajWF4TZE72JSI5Cl-C-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.338;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="h-ajWF4TZE72JSI5Cl-C-29" target="h-ajWF4TZE72JSI5Cl-C-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
