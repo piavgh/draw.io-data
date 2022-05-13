@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T08:31:39.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="SKvU5MGSJbVcveZ-IOOM" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T07:18:24.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="7DI26SJhuov5448SRhYF" version="18.0.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1298" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2276" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HgYlxXDiWCx18JsQOjGB-29" value="repeat" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="816" y="120" width="280" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Aggregator Backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="70" width="130" height="310" as="geometry" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Pool service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="70" width="130" height="310" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="60" y="70" width="10" height="60" as="geometry" />
@@ -23,13 +23,15 @@
           <mxGeometry x="60" y="660" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="stream of pools" style="verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;shadow=0;strokeWidth=1;startArrow=classic;startFill=1;endFill=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.4286" relative="1" as="geometry">
             <mxPoint x="275" y="236" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="get pools request" style="verticalAlign=bottom;endArrow=none;entryX=0;entryY=0;shadow=0;strokeWidth=1;startArrow=classic;startFill=1;endFill=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.551" relative="1" as="geometry">
             <mxPoint x="275" y="160" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HgYlxXDiWCx18JsQOjGB-1" value="Tasks Queue" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
@@ -252,6 +254,20 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1690" y="930" as="sourcePoint" />
             <mxPoint x="1500.25" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t29m4u8Mn-PUIZCpoRBY-1" value="Message broker" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="70" width="130" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="t29m4u8Mn-PUIZCpoRBY-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t29m4u8Mn-PUIZCpoRBY-1">
+          <mxGeometry x="60" y="180" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t29m4u8Mn-PUIZCpoRBY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.1;entryY=0.765;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t29m4u8Mn-PUIZCpoRBY-2" target="3nuBFxr9cyL0pnOWT2aG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t29m4u8Mn-PUIZCpoRBY-4" value="Listen to pool diff messages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t29m4u8Mn-PUIZCpoRBY-3">
+          <mxGeometry x="-0.5291" y="1" relative="1" as="geometry">
+            <mxPoint x="59" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
