@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T07:13:36.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="Q53L_j5flzcLNaqicFQ9" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T07:15:56.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="gZ49hhvSiO6EwCLfE1O4" version="18.0.3" type="github">
   <diagram id="vYhIYeuhMKYq1YM2tLH0" name="Page-1">
     <mxGraphModel dx="1652" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -27,6 +27,9 @@
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-3">
           <mxGeometry x="75" y="590" width="10" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-90" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-3">
+          <mxGeometry x="75" y="140" width="10" height="100" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-14" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Other services&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="2645" y="70" width="160" height="2090" as="geometry" />
@@ -70,17 +73,14 @@
         <mxCell id="duJFYo-hXxuzxmT1SDnn-20" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Tasks queue&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="520" y="70" width="160" height="2120" as="geometry" />
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-24" value="return" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="duJFYo-hXxuzxmT1SDnn-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="900" y="240" as="sourcePoint" />
-            <mxPoint x="120" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-20">
           <mxGeometry x="75" y="950" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-20">
           <mxGeometry x="75" y="730" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-89" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-20">
+          <mxGeometry x="75" y="150" width="10" height="100" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-21" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Pool Scan Service Worker&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1440" y="75" width="160" height="2125" as="geometry" />
@@ -89,18 +89,18 @@
           <mxGeometry x="75" y="935" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-21">
-          <mxGeometry x="75" y="275" width="10" height="185" as="geometry" />
+          <mxGeometry x="75" y="150" width="10" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-22" value="On init: Generate tasks" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=16;" edge="1" parent="1">
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-22" value="generate tasks" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=16;entryX=0.5;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="duJFYo-hXxuzxmT1SDnn-90" target="duJFYo-hXxuzxmT1SDnn-89">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="340" y="230" as="sourcePoint" />
             <mxPoint x="510" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-23" value="On init: Generate tasks" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-23" value="pick task" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;entryX=0.5;entryY=0.081;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="duJFYo-hXxuzxmT1SDnn-86">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="620" y="250" as="sourcePoint" />
-            <mxPoint x="1420" y="250" as="targetPoint" />
+            <mxPoint x="610" y="250" as="sourcePoint" />
+            <mxPoint x="1410" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-26" value="Return data from RPC node" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;entryX=0.967;entryY=0.747;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -247,10 +247,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-25" value="Get data from RPC node" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;entryX=0.5;entryY=0.162;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="duJFYo-hXxuzxmT1SDnn-86">
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-25" value="Get data from RPC node" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="920" y="380" as="sourcePoint" />
-            <mxPoint x="1500" y="380" as="targetPoint" />
+            <mxPoint x="910" y="380" as="sourcePoint" />
+            <mxPoint x="1510" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-24" value="return task" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;exitX=0.5;exitY=0.274;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="duJFYo-hXxuzxmT1SDnn-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1385" y="310" as="sourcePoint" />
+            <mxPoint x="605" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
