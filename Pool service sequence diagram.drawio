@@ -1,29 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T07:15:56.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="gZ49hhvSiO6EwCLfE1O4" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T07:21:00.850Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="HMpl1KSDZrteCq4aJs6f" version="18.0.3" type="github">
   <diagram id="vYhIYeuhMKYq1YM2tLH0" name="Page-1">
-    <mxGraphModel dx="1652" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2478" dy="1456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="duJFYo-hXxuzxmT1SDnn-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillOpacity=50;" vertex="1" parent="1">
-          <mxGeometry x="120" y="720" width="1170" height="210" as="geometry" />
+          <mxGeometry x="120" y="720" width="2690" height="510" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillOpacity=50;" vertex="1" parent="1">
           <mxGeometry x="40" y="190" width="2230" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillOpacity=50;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="1360" width="1650" height="130" as="geometry" />
-        </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-19" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Message Broker&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="70" width="170" height="2130" as="geometry" />
+          <mxGeometry x="1130" y="70" width="170" height="1370" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-19">
           <mxGeometry x="80" y="760" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-19">
-          <mxGeometry x="80" y="1330" width="10" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-3" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Pool Scan Service Master&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="200" y="70" width="160" height="2110" as="geometry" />
+          <mxGeometry x="200" y="70" width="160" height="1370" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-3">
           <mxGeometry x="75" y="590" width="10" height="310" as="geometry" />
@@ -32,25 +26,25 @@
           <mxGeometry x="75" y="140" width="10" height="100" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-14" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Other services&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2645" y="70" width="160" height="2090" as="geometry" />
+          <mxGeometry x="2645" y="70" width="160" height="1370" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-71" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-14">
-          <mxGeometry x="75" y="1130" width="10" height="150" as="geometry" />
+          <mxGeometry x="75" y="1190" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-83" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-14">
-          <mxGeometry x="75" y="1331" width="10" height="60" as="geometry" />
+          <mxGeometry x="75" y="790" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-15" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Pool API Service&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2380" y="70" width="160" height="2090" as="geometry" />
+          <mxGeometry x="2380" y="70" width="160" height="1370" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-15">
-          <mxGeometry x="75" y="1130" width="10" height="150" as="geometry" />
+          <mxGeometry x="75" y="1190" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-16" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Datastore&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(Redis)&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2090" y="70" width="160" height="2090" as="geometry" />
+          <mxGeometry x="2090" y="70" width="160" height="1370" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-16">
-          <mxGeometry x="75" y="1170" width="10" height="100" as="geometry" />
+          <mxGeometry x="75" y="1230" width="10" height="100" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-80" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-16">
           <mxGeometry x="75" y="1040" width="10" height="50" as="geometry" />
@@ -59,19 +53,19 @@
           <mxGeometry x="75" y="390" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-17" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Subgraphs&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(Ethereum, BSC, Polygon, ...)&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="70" width="160" height="2100" as="geometry" />
+          <mxGeometry x="1750" y="70" width="160" height="1370" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-17">
           <mxGeometry x="75" y="305" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-18" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;RPC Nodes&lt;/span&gt;&lt;br style=&quot;font-size: 16px; padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(Ethereum, BSC, Polygon, ...)&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="830" y="70" width="160" height="2130" as="geometry" />
+          <mxGeometry x="830" y="70" width="160" height="1370" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-85" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-18">
           <mxGeometry x="75" y="290" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-20" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Tasks queue&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="520" y="70" width="160" height="2120" as="geometry" />
+          <mxGeometry x="520" y="70" width="160" height="1370" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-20">
           <mxGeometry x="75" y="950" width="10" height="160" as="geometry" />
@@ -83,7 +77,7 @@
           <mxGeometry x="75" y="150" width="10" height="100" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-21" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Pool Scan Service Worker&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="75" width="160" height="2125" as="geometry" />
+          <mxGeometry x="1440" y="75" width="160" height="1365" as="geometry" />
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=16;" vertex="1" parent="duJFYo-hXxuzxmT1SDnn-21">
           <mxGeometry x="75" y="935" width="10" height="160" as="geometry" />
@@ -121,7 +115,7 @@
             <mxPoint x="1580" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-29" value="Save pool data" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=16;" edge="1" parent="1" target="duJFYo-hXxuzxmT1SDnn-88">
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-29" value="Successful: save pool data" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=16;" edge="1" parent="1" target="duJFYo-hXxuzxmT1SDnn-88">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1530" y="510" as="sourcePoint" />
             <mxPoint x="2060" y="510" as="targetPoint" />
@@ -166,54 +160,51 @@
             <mxPoint x="1120" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-51" value="get list of pools" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="duJFYo-hXxuzxmT1SDnn-16" target="duJFYo-hXxuzxmT1SDnn-15">
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-51" value="get list of pools" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="2230" y="1270" as="sourcePoint" />
-            <mxPoint x="2390" y="1270" as="targetPoint" />
+            <mxPoint x="2168.5" y="1330" as="sourcePoint" />
+            <mxPoint x="2459.5" y="1330" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2280" y="1270" />
+              <mxPoint x="2280" y="1330" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-54" value="return list of pools" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="duJFYo-hXxuzxmT1SDnn-14" target="duJFYo-hXxuzxmT1SDnn-15">
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-54" value="return list of pools" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2680" y="1340" as="sourcePoint" />
-            <mxPoint x="2520" y="1340" as="targetPoint" />
+            <mxPoint x="2724.5" y="1390" as="sourcePoint" />
+            <mxPoint x="2458.5" y="1390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2620" y="1330" />
+              <mxPoint x="2620" y="1390" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-57" value="consume pool event" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="duJFYo-hXxuzxmT1SDnn-14" target="duJFYo-hXxuzxmT1SDnn-19">
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-57" value="consume pool events" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2640" y="1440" as="sourcePoint" />
-            <mxPoint x="1280" y="1440" as="targetPoint" />
+            <mxPoint x="2724.5" y="890" as="sourcePoint" />
+            <mxPoint x="1214.1666666666665" y="890" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1740" y="1430" />
+              <mxPoint x="1740" y="890" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-64" value="Repeat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="140" y="740" width="70" height="20" as="geometry" />
+          <mxGeometry x="130" y="730" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-65" value="Repeat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="1370" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-50" value="get list of pools" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="duJFYo-hXxuzxmT1SDnn-15" target="duJFYo-hXxuzxmT1SDnn-14">
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-50" value="get list of pools" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="2530" y="1230" as="sourcePoint" />
-            <mxPoint x="2680" y="1240" as="targetPoint" />
+            <mxPoint x="2458.5" y="1290" as="sourcePoint" />
+            <mxPoint x="2724.5" y="1290" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2650" y="1230" />
+              <mxPoint x="2650" y="1290" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-52" value="return list of pools" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="duJFYo-hXxuzxmT1SDnn-15" target="duJFYo-hXxuzxmT1SDnn-16">
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-52" value="return list of pools" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2390" y="1310" as="sourcePoint" />
-            <mxPoint x="2230" y="1310" as="targetPoint" />
+            <mxPoint x="2459.5" y="1370" as="sourcePoint" />
+            <mxPoint x="2168.5" y="1370" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2390" y="1310" />
+              <mxPoint x="2390" y="1370" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -257,6 +248,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1385" y="310" as="sourcePoint" />
             <mxPoint x="605" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-92" value="Failed: unack, task will be put back in tasks queue" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="609.1666666666665" y="520" as="sourcePoint" />
+            <mxPoint x="1529.5" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1340" y="520" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
