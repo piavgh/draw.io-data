@@ -1,38 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T04:42:40.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="VrWi35s_2LJCp9QQlKHh" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T04:51:48.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="lV0NQLTxn2EvVh0vszSV" version="18.0.3" type="github">
   <diagram id="vYhIYeuhMKYq1YM2tLH0" name="Page-1">
     <mxGraphModel dx="1731" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="00cH1n4YGTlZ0PjOOUdn-2" value="Pool API Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="2330" y="85" width="130" height="70" as="geometry" />
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-3" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Pool Scan Service Master&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;" vertex="1" parent="1">
+          <mxGeometry x="200" y="70" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="00cH1n4YGTlZ0PjOOUdn-3" value="Pool Scan Service Master" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="180" y="60" width="160" height="90" as="geometry" />
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-13" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Clients&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="70" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="00cH1n4YGTlZ0PjOOUdn-4" value="Message Broker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1115" y="70" width="160" height="80" as="geometry" />
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-14" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Other services&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;" vertex="1" parent="1">
+          <mxGeometry x="2645" y="70" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="00cH1n4YGTlZ0PjOOUdn-5" value="Subgraphs&lt;br style=&quot;font-size: 16px;&quot;&gt;(Ethereum, BSC, Polygon, ...)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="75" width="220" height="80" as="geometry" />
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-15" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Pool API Service&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="70" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="00cH1n4YGTlZ0PjOOUdn-6" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;RPC Nodes&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(Ethereum, BSC, Polygon, ...)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1390" y="75" width="220" height="80" as="geometry" />
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-16" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Datastore&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(Redis)&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="70" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="00cH1n4YGTlZ0PjOOUdn-7" value="Tasks queue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="800" y="70" width="170" height="80" as="geometry" />
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-17" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Subgraphs&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(Ethereum, BSC, Polygon, ...)&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="70" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="00cH1n4YGTlZ0PjOOUdn-8" value="Datastore&lt;br style=&quot;font-size: 16px;&quot;&gt;(Redis)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="2090" y="75" width="130" height="80" as="geometry" />
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-18" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;RPC Nodes&lt;/span&gt;&lt;br style=&quot;font-size: 16px; padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(Ethereum, BSC, Polygon, ...)&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="70" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="VPi010c3T4Fb0CU36pfW-2" value="Pool Scan Service Worker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="480" y="65" width="180" height="90" as="geometry" />
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-19" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Message Broker&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="70" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-1" value="Other services" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2660" y="80" width="130" height="70" as="geometry" />
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-20" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Tasks queue&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;" vertex="1" parent="1">
+          <mxGeometry x="800" y="70" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-2" value="Clients" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2950" y="85" width="130" height="70" as="geometry" />
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-21" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Pool Scan Service Worker&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;" vertex="1" parent="1">
+          <mxGeometry x="490" y="70" width="160" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
