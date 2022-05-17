@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T06:49:37.167Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="_SIBfoQlawUhBrPAsNa-" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T06:51:33.124Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="6oo1-ViL4NL5nYgk3z8f" version="18.0.3" type="github">
   <diagram id="vYhIYeuhMKYq1YM2tLH0" name="Page-1">
     <mxGraphModel dx="1652" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-59" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=16;fillOpacity=50;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1360" width="1650" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-19" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Message Broker&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="70" width="170" height="2130" as="geometry" />
+        </mxCell>
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-25" value="Get data from RPC node" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="duJFYo-hXxuzxmT1SDnn-19">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-150" y="310" as="sourcePoint" />
+            <mxPoint x="370" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-34" value="Return task contains pool event" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="duJFYo-hXxuzxmT1SDnn-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="1014" as="sourcePoint" />
+            <mxPoint x="-480" y="1014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-42" value="repeat" style="shape=umlFrame;whiteSpace=wrap;html=1;dashed=1;fontSize=16;fillOpacity=50;" vertex="1" parent="1">
           <mxGeometry x="190" y="730" width="960" height="180" as="geometry" />
         </mxCell>
@@ -45,21 +63,6 @@
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-18" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;RPC Nodes&lt;/span&gt;&lt;br style=&quot;font-size: 16px; padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(Ethereum, BSC, Polygon, ...)&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="830" y="70" width="160" height="2130" as="geometry" />
-        </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-19" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Message Broker&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="70" width="160" height="2130" as="geometry" />
-        </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-25" value="Get data from RPC node" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="duJFYo-hXxuzxmT1SDnn-19">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-150" y="310" as="sourcePoint" />
-            <mxPoint x="370" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-34" value="Return task contains pool event" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="duJFYo-hXxuzxmT1SDnn-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="1014" as="sourcePoint" />
-            <mxPoint x="-480" y="1014" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-20" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Tasks queue&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="520" y="70" width="160" height="2120" as="geometry" />
