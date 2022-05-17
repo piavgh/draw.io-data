@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T02:47:04.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="MYI8HwmiMHwiUmy9CPoG" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T02:51:29.548Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="vjGztd0wZJ9sHQoFh1v0" version="18.0.3" type="github">
   <diagram id="vYhIYeuhMKYq1YM2tLH0" name="Page-1">
     <mxGraphModel dx="1731" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="150" y="210" width="1460" height="130" as="geometry" />
         </mxCell>
         <mxCell id="VPi010c3T4Fb0CU36pfW-23" value="&lt;b&gt;Infrastructure&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=16;fillColor=default;align=left;verticalAlign=top;spacingTop=22;spacingLeft=23;fillOpacity=50;" vertex="1" parent="1">
-          <mxGeometry x="150" y="890" width="1470" height="167" as="geometry" />
+          <mxGeometry x="150" y="860" width="1470" height="197" as="geometry" />
         </mxCell>
         <mxCell id="VPi010c3T4Fb0CU36pfW-22" value="&lt;b&gt;Domain Service&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=16;fillColor=default;align=left;verticalAlign=top;spacingTop=22;spacingLeft=23;fillOpacity=50;" vertex="1" parent="1">
           <mxGeometry x="150" y="400" width="1460" height="377" as="geometry" />
@@ -28,13 +28,16 @@
         <mxCell id="00cH1n4YGTlZ0PjOOUdn-3" value="Pool Scan Service Master" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="497" y="640" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="VPi010c3T4Fb0CU36pfW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="00cH1n4YGTlZ0PjOOUdn-4" target="00cH1n4YGTlZ0PjOOUdn-3">
+        <mxCell id="VPi010c3T4Fb0CU36pfW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="00cH1n4YGTlZ0PjOOUdn-4" target="00cH1n4YGTlZ0PjOOUdn-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="345" y="750" />
               <mxPoint x="562" y="750" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VPi010c3T4Fb0CU36pfW-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="00cH1n4YGTlZ0PjOOUdn-4" target="VPi010c3T4Fb0CU36pfW-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="00cH1n4YGTlZ0PjOOUdn-4" value="Message Broker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="265" y="940" width="160" height="80" as="geometry" />
@@ -63,6 +66,9 @@
         <mxCell id="00cH1n4YGTlZ0PjOOUdn-8" value="Datastore&lt;br style=&quot;font-size: 16px;&quot;&gt;(Redis)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1430" y="940" width="130" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="VPi010c3T4Fb0CU36pfW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="VPi010c3T4Fb0CU36pfW-1" target="VPi010c3T4Fb0CU36pfW-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VPi010c3T4Fb0CU36pfW-1" value="gRPC Gateway" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1045" y="240" width="120" height="60" as="geometry" />
         </mxCell>
@@ -80,6 +86,9 @@
         <mxCell id="VPi010c3T4Fb0CU36pfW-2" value="Pool Scan Service Worker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="870" y="640" width="130" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="VPi010c3T4Fb0CU36pfW-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="VPi010c3T4Fb0CU36pfW-15" target="VPi010c3T4Fb0CU36pfW-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VPi010c3T4Fb0CU36pfW-15" value="gRPC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1380" y="240" width="120" height="60" as="geometry" />
         </mxCell>
@@ -91,6 +100,15 @@
         </mxCell>
         <mxCell id="VPi010c3T4Fb0CU36pfW-21" value="&lt;b&gt;Domain&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="790" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VPi010c3T4Fb0CU36pfW-26" value="Client" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VPi010c3T4Fb0CU36pfW-28" value="Other services" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VPi010c3T4Fb0CU36pfW-30" value="Other services" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1170" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
