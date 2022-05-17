@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T03:50:21.479Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="KvqRBFasroRG3ufrsZvV" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T03:52:51.400Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="wQTU0F4DtM3GxGY_aMWz" version="18.0.3" type="github">
   <diagram id="vYhIYeuhMKYq1YM2tLH0" name="Page-1">
     <mxGraphModel dx="1731" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,17 +28,17 @@
         <mxCell id="00cH1n4YGTlZ0PjOOUdn-3" value="Token Price Scan Service Master" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="470" y="640" width="183" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Fwv69hDyFIpPu4L3yp6a-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="00cH1n4YGTlZ0PjOOUdn-4" target="00cH1n4YGTlZ0PjOOUdn-3">
+        <mxCell id="Fwv69hDyFIpPu4L3yp6a-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.326;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="00cH1n4YGTlZ0PjOOUdn-4" target="00cH1n4YGTlZ0PjOOUdn-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="00cH1n4YGTlZ0PjOOUdn-4" value="Message Broker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="300" y="940" width="160" height="80" as="geometry" />
+          <mxGeometry x="450" y="950" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Fwv69hDyFIpPu4L3yp6a-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="00cH1n4YGTlZ0PjOOUdn-7" target="VPi010c3T4Fb0CU36pfW-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="00cH1n4YGTlZ0PjOOUdn-7" value="Tasks queue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="564" y="940" width="170" height="80" as="geometry" />
+          <mxGeometry x="660" y="950" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VPi010c3T4Fb0CU36pfW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="00cH1n4YGTlZ0PjOOUdn-8" target="00cH1n4YGTlZ0PjOOUdn-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -50,16 +50,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VPi010c3T4Fb0CU36pfW-1" value="gRPC Gateway" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1045" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="1110" y="245" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VPi010c3T4Fb0CU36pfW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" parent="1" source="VPi010c3T4Fb0CU36pfW-2" edge="1">
+        <mxCell id="VPi010c3T4Fb0CU36pfW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VPi010c3T4Fb0CU36pfW-2" edge="1" target="00cH1n4YGTlZ0PjOOUdn-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1490" y="940" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1050" y="675" />
               <mxPoint x="1080" y="675" />
               <mxPoint x="1080" y="740" />
-              <mxPoint x="1490" y="740" />
+              <mxPoint x="1463" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -82,7 +82,7 @@
           <mxGeometry x="710" y="470" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VPi010c3T4Fb0CU36pfW-26" value="Clients" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fontSize=16;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1065" y="20" width="80" height="80" as="geometry" />
+          <mxGeometry x="1130" y="30" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VPi010c3T4Fb0CU36pfW-28" value="Other services" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fontSize=16;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="1400" y="20" width="80" height="80" as="geometry" />
@@ -90,22 +90,22 @@
         <mxCell id="0GMuriRPIV73mQWH51Op-1" value="Price" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="880" y="500" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0GMuriRPIV73mQWH51Op-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="0GMuriRPIV73mQWH51Op-2" target="VPi010c3T4Fb0CU36pfW-2" edge="1">
+        <mxCell id="0GMuriRPIV73mQWH51Op-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="0GMuriRPIV73mQWH51Op-2" target="VPi010c3T4Fb0CU36pfW-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0GMuriRPIV73mQWH51Op-2" value="External Price Sources (Coingecko, Coinmarketcap, Dextools, ...)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="855" y="940" width="210" height="80" as="geometry" />
+          <mxGeometry x="935" y="950" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Fwv69hDyFIpPu4L3yp6a-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="Fwv69hDyFIpPu4L3yp6a-5" target="00cH1n4YGTlZ0PjOOUdn-3">
+        <mxCell id="Fwv69hDyFIpPu4L3yp6a-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="Fwv69hDyFIpPu4L3yp6a-5" target="00cH1n4YGTlZ0PjOOUdn-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fwv69hDyFIpPu4L3yp6a-7" value="Get pools state to bootstrap data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="Fwv69hDyFIpPu4L3yp6a-6">
-          <mxGeometry x="-0.822" y="4" relative="1" as="geometry">
-            <mxPoint x="-122" as="offset" />
+        <mxCell id="Fwv69hDyFIpPu4L3yp6a-10" value="Get pools state to bootstrap data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="Fwv69hDyFIpPu4L3yp6a-9">
+          <mxGeometry x="-0.6432" y="1" relative="1" as="geometry">
+            <mxPoint x="-125" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Fwv69hDyFIpPu4L3yp6a-5" value="Pool Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="425" y="1220" width="183" height="90" as="geometry" />
+          <mxGeometry x="160" y="1250" width="183" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
