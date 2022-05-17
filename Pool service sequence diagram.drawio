@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T06:53:20.477Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="YX9gHp7GWaBxqax68zAo" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T06:54:49.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="cWOarV0rUyWikSF6VaFF" version="18.0.3" type="github">
   <diagram id="vYhIYeuhMKYq1YM2tLH0" name="Page-1">
     <mxGraphModel dx="1652" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -34,20 +34,8 @@
         <mxCell id="duJFYo-hXxuzxmT1SDnn-14" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Other services&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="2645" y="70" width="160" height="2090" as="geometry" />
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-50" value="get list of pools" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="duJFYo-hXxuzxmT1SDnn-14">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-125" y="1170" as="sourcePoint" />
-            <mxPoint x="35" y="1170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-15" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Pool API Service&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="2380" y="70" width="160" height="2090" as="geometry" />
-        </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-52" value="return list of pools" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="duJFYo-hXxuzxmT1SDnn-15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="10" y="1250" as="sourcePoint" />
-            <mxPoint x="-150" y="1250" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-16" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Datastore&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(Redis)&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=90;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="2090" y="70" width="160" height="2090" as="geometry" />
@@ -151,22 +139,31 @@
             <mxPoint x="1120" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-51" value="get list of pools" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-51" value="get list of pools" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="duJFYo-hXxuzxmT1SDnn-16" target="duJFYo-hXxuzxmT1SDnn-15">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="2230" y="1270" as="sourcePoint" />
             <mxPoint x="2390" y="1270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2280" y="1270" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-54" value="return list of pools" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-54" value="return list of pools" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="duJFYo-hXxuzxmT1SDnn-14" target="duJFYo-hXxuzxmT1SDnn-15">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2680" y="1340" as="sourcePoint" />
             <mxPoint x="2520" y="1340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2620" y="1330" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="duJFYo-hXxuzxmT1SDnn-57" value="consume pool event" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-57" value="consume pool event" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="duJFYo-hXxuzxmT1SDnn-14" target="duJFYo-hXxuzxmT1SDnn-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2640" y="1440" as="sourcePoint" />
             <mxPoint x="1280" y="1440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1740" y="1430" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-64" value="Repeat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
@@ -174,6 +171,24 @@
         </mxCell>
         <mxCell id="duJFYo-hXxuzxmT1SDnn-65" value="Repeat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1150" y="1370" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-50" value="get list of pools" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="duJFYo-hXxuzxmT1SDnn-15" target="duJFYo-hXxuzxmT1SDnn-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2520" y="1240" as="sourcePoint" />
+            <mxPoint x="2680" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2650" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duJFYo-hXxuzxmT1SDnn-52" value="return list of pools" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="duJFYo-hXxuzxmT1SDnn-15" target="duJFYo-hXxuzxmT1SDnn-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2390" y="1310" as="sourcePoint" />
+            <mxPoint x="2230" y="1310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2390" y="1310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
