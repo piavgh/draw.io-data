@@ -1,1 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T09:50:24.312Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="18.0.7" etag="IgL7rVqmFkYmYtHPg8I3" type="github"><diagram id="Hq1wZTLVjcQGeSuM3O-y">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-19T10:27:00.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="eeigbegMKgXR9SVUHeUG" version="18.0.7" type="github">
+  <diagram id="Hq1wZTLVjcQGeSuM3O-y" name="Page-1">
+    <mxGraphModel dx="2276" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U8virx7y6meJ6mPODNHH-1" value="update Sorted Sets" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-2" target="U8virx7y6meJ6mPODNHH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-2" value="persistPool" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.892;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-16" target="U8virx7y6meJ6mPODNHH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="152.39872015458332" y="151.27892958383336" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-6" target="U8virx7y6meJ6mPODNHH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-6" value="UpdatePoolSwapFee" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="230" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.367;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-7" target="U8virx7y6meJ6mPODNHH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-7" value="SavePool&lt;br&gt;scan.go" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="650" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.592;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-8" target="U8virx7y6meJ6mPODNHH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-8" value="savepool.go&lt;br&gt;UpdateData" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="750" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-10" target="U8virx7y6meJ6mPODNHH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-10" value="UpdatePoolSupply" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-16" value="UpdatePoolExtra" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-17" target="U8virx7y6meJ6mPODNHH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-17" value="UpdateNewPools&lt;br&gt;(uniswap, uniswapv3,&lt;br&gt;promm, balancer, dodo, firebird, oneswap)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="620" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-19" target="U8virx7y6meJ6mPODNHH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-19" value="InitPool&lt;br&gt;(curve, ironstable, nerve, saddle)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="840" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-21" target="U8virx7y6meJ6mPODNHH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-21" value="UpdatePoolReserve&lt;br&gt;scan.go" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="970" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-23" target="U8virx7y6meJ6mPODNHH-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-23" value="UpdateReserves&lt;br&gt;(all kinds of pool)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1060" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-24" target="U8virx7y6meJ6mPODNHH-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-24" value="scanevent.go&lt;br&gt;UpdateData" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1260" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-27" target="U8virx7y6meJ6mPODNHH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-27" value="savepoolsupply.go&lt;br&gt;UpdateData" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="440" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-29" target="U8virx7y6meJ6mPODNHH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-29" value="UpdateTotalSupply&lt;br&gt;(all kinds of pool)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="280" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-31" target="U8virx7y6meJ6mPODNHH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-31" value="updateReservesFunc&lt;br&gt;(polydex, biswap)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="80" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="U8virx7y6meJ6mPODNHH-33" target="U8virx7y6meJ6mPODNHH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8virx7y6meJ6mPODNHH-33" value="UpdateReserves&lt;br&gt;(all kinds of pool)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="-160" width="150" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
