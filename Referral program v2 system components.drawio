@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T11:20:56.528Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="iPlzmpmFZHgJK7z187Vi" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-27T11:21:09.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="mphqqpeD7TonPoVgtobV" version="18.1.1" type="github">
   <diagram id="YZ2rB1g7LrTlox4dIqGf" name="Page-1">
     <mxGraphModel dx="2751" dy="2017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
         <mxCell id="9U1QRrA1M3RrbsubNIXX-4" value="Database" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="270" y="600" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="9U1QRrA1M3RrbsubNIXX-5" value="Sorted Set&lt;br&gt;(for leaderboard)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="9U1QRrA1M3RrbsubNIXX-5" value="Redis&lt;br&gt;Sorted Set&lt;br&gt;(for leaderboard)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="800" y="600" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9U1QRrA1M3RrbsubNIXX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="9U1QRrA1M3RrbsubNIXX-9" target="9U1QRrA1M3RrbsubNIXX-17">
