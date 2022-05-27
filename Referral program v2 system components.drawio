@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T11:18:46.220Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="nQ5J5G2I1YPEZnWKIWX-" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-27T11:20:10.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="Kjl6Syc8JyRihPNaQPhq" version="18.1.1" type="github">
   <diagram id="YZ2rB1g7LrTlox4dIqGf" name="Page-1">
     <mxGraphModel dx="2751" dy="2017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="9U1QRrA1M3RrbsubNIXX-22" value="Application Interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;" vertex="1" parent="9U1QRrA1M3RrbsubNIXX-23">
           <mxGeometry x="10" y="10" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9U1QRrA1M3RrbsubNIXX-7" value="Subgraphs&lt;br&gt;(Ethereum, BSC, Polygon, ...)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="9U1QRrA1M3RrbsubNIXX-23">
+        <mxCell id="9U1QRrA1M3RrbsubNIXX-7" value="Subgraphs Aggregator V3&lt;br&gt;(Ethereum, BSC, Polygon, ...)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="9U1QRrA1M3RrbsubNIXX-23">
           <mxGeometry x="310" y="70" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9U1QRrA1M3RrbsubNIXX-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;dashed=1;fillOpacity=50;strokeOpacity=50;" vertex="1" parent="1">
