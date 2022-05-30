@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T15:17:27.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="cyWKoZoV9bdG04Jwynb9" version="18.1.3" type="github"><diagram id="ZGwalyleYwvO8AtcDpwx" name="Page-1">7VrZbts4FP0aA52HGVhSvD0mTtp5yKBBXWDavhiUeG1zQokKRXnp18+lRG2mnMW1kAFGeQl5SF5ZPOcupD3w5uH+kyTx5i9BgQ/cId0PvNuB6zrubIr/NHLIkYlrgLVk1EyqgAX7CQYcGjRlFJLGRCUEVyxugoGIIghUAyNSil1z2krw5lNjsgYLWASE2+jfjKpNjk5Hwwr/E9h6UzzZGZqRkBSTDZBsCBW7GuTdDby5FELlrXA/B643r9iXfN3HE6PlB5MQqdcs8O+f6GQXXG/Z/cFPn6j85/D1dze3siU8NS/8df8gRQBJIiQOLEBuWQDmDdSh2BZ8mVg305DfsxVwFmHvJgbJQlAgcYQb+KHCbnYbpmARk0Av3aFgENuokGPPwSZyqAgukWWfcxInzM+eOkREQpDKhG3hCyS5VDQqUqWfNC8loMEVGjNycq6wb2+X2cEtSAX7GmS27xMI/NzygFPMqFuwbrR8Zbq7Shgl/ZuaKKYFSIwY16Xpii9sGMreQJ9n0XdLFPFJ0jOWjY6d8xibzLpi7Mpi7AtQlvR0NcLqe9AVfR7/CJyfIribPX7+MSeL79JpiY8SVCojxCSsQEqQWTMQkmIji5kRRnSdadKIWrTWyNDbwjDRXHO2jhDzhVIixAGI6LXOXIiJGHDohpJkA9Ssw2Gz7VNNmH5MNvYmToA20p7NiAROFOqgmVBbttcsfRAsUjXHG83+GDW4RHKbRhKRygDMunreOjLlzl40pYhcg7JMZYyX73S+CGyfxafVaV9JJE6n3/FTqtP5TaGNpIJ04UK0o7lD/1DKh/BlgDXTr+rE5yJ47FANNQecGlf7RYG0sHp1pkBatHZsqmOBTN8sECVJlJBAMRG1aqSXg+NeTA6WqY7lMDudNF6hgEI0feYo6BtfLHNYpjpWQlF+1qRgEYtm8DALzUqtKP80ZYooPbpinM8FFzJb5g2zPz1VSfEItZHVyox0UKGV5VeZiu0SzWup0LyuCjTHsXaYrY6LsLne8UcWv7dT4b7Lw7dyIXa+65koUtO93ZuVee9geieJyz3hmeOGkVsu81cItWvvdsdN/XjHR+PX+rbzkqGuPfvZk0GScvXeYvsPRXBvdrEIbpnqmmf7iiWQoCOy+zGNadao6jzWzPFZjQ/QV3jtVI4uVuFZprpWhX0k7L3/FDmjcyt5WzKWqa55Hlk8l07/0mm/DAofojRcFsf9JK9GlFB49AciIxatf+ujAR7Zz70fsgVnmepaJeM+GpwgZ2rxPD73mseWjGWqa54np6MBB0JB+oJkLr8QeKDKGtk90IcQQl/ful9rZyKcazQ7lGCIgBxuBIk+Imh6h2cqpUV0x6a6Vop9I1gphSRqGeffsQJdqv2StZSO+AkILiB96dgmjYlzsWRhmepaGs/cDv7Pk0ULOeceEVokc7EjAnarX23k06vfvnh3/wI=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-30T15:22:57.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="1FYl9lys6F6N941UPqFK" version="18.1.3" type="github">
+  <diagram id="ZGwalyleYwvO8AtcDpwx" name="Page-1">
+    <mxGraphModel dx="1298" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bLqd7wcAviLybuqdrjyT-2" value="TxProcessor Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="250" y="40" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="bLqd7wcAviLybuqdrjyT-3" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="610" y="40" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="nO6Zc1zocE9kOZCaSYr1-8" value="get record from &quot;transactions&quot; table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="299.5" y="125" as="sourcePoint" />
+            <mxPoint x="659.5" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nO6Zc1zocE9kOZCaSYr1-9" value="return &quot;transactions&quot; record" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="659.5" y="165" as="sourcePoint" />
+            <mxPoint x="299.5" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nO6Zc1zocE9kOZCaSYr1-12" value="return &quot;referees&quot; record / not found" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="659.5" y="295" as="sourcePoint" />
+            <mxPoint x="299.5" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nO6Zc1zocE9kOZCaSYr1-13" value="get record in &quot;referees&quot; table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="299.5" y="255" as="sourcePoint" />
+            <mxPoint x="659.5" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nO6Zc1zocE9kOZCaSYr1-18" value="update last_processed_tx_id in &quot;metadata&quot; table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="299.5" y="525" as="sourcePoint" />
+            <mxPoint x="659.5" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nO6Zc1zocE9kOZCaSYr1-19" value="return result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="659.5" y="565" as="sourcePoint" />
+            <mxPoint x="299.5" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2saV17bXD0kkiibPH2xv-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2saV17bXD0kkiibPH2xv-2" value="if found, skip" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="315" as="sourcePoint" />
+            <mxPoint x="170" y="314.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2saV17bXD0kkiibPH2xv-4" value="if not found, create record in &quot;referees&quot; table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="299.5" y="375" as="sourcePoint" />
+            <mxPoint x="659.5" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2saV17bXD0kkiibPH2xv-5" value="return result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="659.5" y="415" as="sourcePoint" />
+            <mxPoint x="299.5" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
