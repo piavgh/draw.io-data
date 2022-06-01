@@ -1,1 +1,154 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T03:21:40.456Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="18.2.0" etag="-AEXWr07cOgGuHFu_WJV" type="github"><diagram id="_uCbCru1dz9pbxuD4U3f">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-01T03:34:47.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="H4R3ghN501opHMJhmD9f" version="18.2.0" type="github">
+  <diagram id="_uCbCru1dz9pbxuD4U3f" name="Page-1">
+    <mxGraphModel dx="1426" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="41sfQqF2GvXdN220cYwM-4" value="Reward Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="930" y="40" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="41sfQqF2GvXdN220cYwM-4">
+          <mxGeometry x="45" y="230" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="975" y="440" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-1" value="Clients" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="41sfQqF2GvXdN220cYwM-1">
+          <mxGeometry x="45" y="110" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="41sfQqF2GvXdN220cYwM-1">
+          <mxGeometry x="45" y="400" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-2" value="Referral API Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="41sfQqF2GvXdN220cYwM-2">
+          <mxGeometry x="45" y="104" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-3" value="Message Broker" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="41sfQqF2GvXdN220cYwM-3">
+          <mxGeometry x="45" y="115" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-9" value="publish event: new eligible referral" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="41sfQqF2GvXdN220cYwM-3" source="41sfQqF2GvXdN220cYwM-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-180" y="130" as="sourcePoint" />
+            <mxPoint x="50" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-13" value="return event payload" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=14;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="41sfQqF2GvXdN220cYwM-3" source="41sfQqF2GvXdN220cYwM-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="290" as="sourcePoint" />
+            <mxPoint x="50" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="41sfQqF2GvXdN220cYwM-3">
+          <mxGeometry x="45" y="230" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="41sfQqF2GvXdN220cYwM-3">
+          <mxGeometry x="45" y="530" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="41sfQqF2GvXdN220cYwM-3">
+          <mxGeometry x="45" y="644" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-5" value="ClaimTracker" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="40" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="41sfQqF2GvXdN220cYwM-5">
+          <mxGeometry x="45" y="644" width="10" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-6" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="40" width="100" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="41sfQqF2GvXdN220cYwM-6">
+          <mxGeometry x="45" y="724" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-20" value="update claimed info" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="41sfQqF2GvXdN220cYwM-6" target="41sfQqF2GvXdN220cYwM-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-200" y="740" as="sourcePoint" />
+            <mxPoint x="80.5" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-8" value="unlock request" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="169.5" y="160" as="sourcePoint" />
+            <mxPoint x="449.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-10" value="return result (success or failed)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="729.5" y="220" as="sourcePoint" />
+            <mxPoint x="449.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-11" value="return result (success or failed)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="240" as="sourcePoint" />
+            <mxPoint x="170" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-12" value="consume event: new eligible referral" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=14;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="730" y="290" as="sourcePoint" />
+            <mxPoint x="980" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-14" value="claim reward request" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="1" target="41sfQqF2GvXdN220cYwM-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="454.5" as="sourcePoint" />
+            <mxPoint x="450" y="454.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-15" value="handle claim request" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="979.5" y="510" as="sourcePoint" />
+            <mxPoint x="169.5" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-16" value="publish event: user has claimedl" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=14;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="730" y="580" as="sourcePoint" />
+            <mxPoint x="980" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-17" value="return result" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=14;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="979.5" y="620" as="sourcePoint" />
+            <mxPoint x="730" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-18" value="consume event: user has claimedl" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=14;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="41sfQqF2GvXdN220cYwM-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1000" y="700" as="sourcePoint" />
+            <mxPoint x="1250" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-19" value="return event payload" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=14;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="41sfQqF2GvXdN220cYwM-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="979.5" y="750" as="sourcePoint" />
+            <mxPoint x="730" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-21" value="return result (success or failed)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="830" as="sourcePoint" />
+            <mxPoint x="1250" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41sfQqF2GvXdN220cYwM-30" value="update internal database" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1010" y="320" />
+            </Array>
+            <mxPoint x="985" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
