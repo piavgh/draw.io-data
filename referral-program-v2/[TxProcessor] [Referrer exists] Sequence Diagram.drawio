@@ -1,67 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T02:44:55.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="D8laONzQuDr0-2G0Q7Ds" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-01T03:18:38.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="TzMcj3a5GcnqWdkK6DwG" version="18.2.0" type="github">
   <diagram id="ZGwalyleYwvO8AtcDpwx" name="Page-1">
     <mxGraphModel dx="1426" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bLqd7wcAviLybuqdrjyT-2" value="TxProcessor Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="250" y="40" width="100" height="600" as="geometry" />
+          <mxGeometry x="130" y="40" width="100" height="770" as="geometry" />
         </mxCell>
         <mxCell id="yjelwBxEfb2_AlvG7ZR6-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="bLqd7wcAviLybuqdrjyT-2" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="460" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="620" as="geometry" />
         </mxCell>
         <mxCell id="bLqd7wcAviLybuqdrjyT-3" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="610" y="40" width="100" height="600" as="geometry" />
+          <mxGeometry x="610" y="40" width="100" height="760" as="geometry" />
         </mxCell>
         <mxCell id="yjelwBxEfb2_AlvG7ZR6-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="bLqd7wcAviLybuqdrjyT-3" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="450" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="nO6Zc1zocE9kOZCaSYr1-2" value="return referrer record or not found" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" parent="1" edge="1">
+        <mxCell id="nO6Zc1zocE9kOZCaSYr1-2" value="return referrer record or not found" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" parent="1" edge="1" target="bLqd7wcAviLybuqdrjyT-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="659.5" y="285" as="sourcePoint" />
             <mxPoint x="299.5" y="285" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nO6Zc1zocE9kOZCaSYr1-4" value="get record from &quot;referrers&quot; table by referral_code" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" parent="1" edge="1">
+        <mxCell id="nO6Zc1zocE9kOZCaSYr1-4" value="get record from &quot;referrers&quot; table by referral_code" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" parent="1" edge="1" source="bLqd7wcAviLybuqdrjyT-2">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="299.5" y="245" as="sourcePoint" />
             <mxPoint x="659.5" y="245" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nO6Zc1zocE9kOZCaSYr1-8" value="get record from &quot;transactions&quot; table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" parent="1" edge="1">
+        <mxCell id="nO6Zc1zocE9kOZCaSYr1-8" value="get record from &quot;transactions&quot; table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" parent="1" edge="1" source="bLqd7wcAviLybuqdrjyT-2">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="299.5" y="125" as="sourcePoint" />
             <mxPoint x="659.5" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nO6Zc1zocE9kOZCaSYr1-9" value="return &quot;transactions&quot; record" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" parent="1" edge="1">
+        <mxCell id="nO6Zc1zocE9kOZCaSYr1-9" value="return &quot;transactions&quot; record" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" parent="1" edge="1" target="bLqd7wcAviLybuqdrjyT-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="659.5" y="165" as="sourcePoint" />
             <mxPoint x="299.5" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nO6Zc1zocE9kOZCaSYr1-12" value="return result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" parent="1" edge="1">
+        <mxCell id="nO6Zc1zocE9kOZCaSYr1-12" value="return &quot;referees record&quot; / not found" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" parent="1" edge="1" target="bLqd7wcAviLybuqdrjyT-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="659.5" y="395" as="sourcePoint" />
             <mxPoint x="299.5" y="395" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nO6Zc1zocE9kOZCaSYr1-13" value="create/update record in &quot;referees&quot; table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" parent="1" edge="1">
+        <mxCell id="nO6Zc1zocE9kOZCaSYr1-13" value="get record in &quot;referees&quot; table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" parent="1" edge="1" source="bLqd7wcAviLybuqdrjyT-2">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="299.5" y="355" as="sourcePoint" />
             <mxPoint x="659.5" y="355" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nO6Zc1zocE9kOZCaSYr1-18" value="update last_processed_tx_id in &quot;metadata&quot; table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" parent="1" edge="1">
+        <mxCell id="2E4g4A8_Lpb4jcUfFFSu-1" value="update last_processed_tx_id in &quot;metadata&quot; table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="299.5" y="505" as="sourcePoint" />
-            <mxPoint x="659.5" y="505" as="targetPoint" />
+            <mxPoint x="179.5" y="655" as="sourcePoint" />
+            <mxPoint x="660" y="655" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nO6Zc1zocE9kOZCaSYr1-19" value="return result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" parent="1" edge="1">
+        <mxCell id="2E4g4A8_Lpb4jcUfFFSu-2" value="return result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="659.5" y="545" as="sourcePoint" />
-            <mxPoint x="299.5" y="545" as="targetPoint" />
+            <mxPoint x="660" y="695" as="sourcePoint" />
+            <mxPoint x="179.5" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2E4g4A8_Lpb4jcUfFFSu-3" value="if not found, create record in &quot;referees&quot; table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="1" target="bLqd7wcAviLybuqdrjyT-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="179.5" y="465" as="sourcePoint" />
+            <mxPoint x="669.5" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2E4g4A8_Lpb4jcUfFFSu-4" value="return result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669.5" y="505" as="sourcePoint" />
+            <mxPoint x="179.5" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2E4g4A8_Lpb4jcUfFFSu-5" value="if found &amp;amp; is_new_user = true, update record in &quot;referees&quot; table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="1" target="yjelwBxEfb2_AlvG7ZR6-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="179.5" y="555" as="sourcePoint" />
+            <mxPoint x="669.5" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2E4g4A8_Lpb4jcUfFFSu-6" value="return result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669.5" y="595" as="sourcePoint" />
+            <mxPoint x="179.5" y="595" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
