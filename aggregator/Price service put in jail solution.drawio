@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T06:11:07.979Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="rGC8VvB1VoBh_-9-jVIa" type="github"><diagram id="rCZXkVoI9-Fqsdh8-22l">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-01T06:20:11.119Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YmeKl-ZZhpmiAmZTWrAp" version="20.0.4" type="github">
+  <diagram id="rCZXkVoI9-Fqsdh8-22l" name="Page-1">
+    <mxGraphModel dx="1426" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="9MrjHOFnhDI7MA88cHDm-1" target="9MrjHOFnhDI7MA88cHDm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-14" value="Publish wrong price address" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="9MrjHOFnhDI7MA88cHDm-10">
+          <mxGeometry x="0.1461" y="2" relative="1" as="geometry">
+            <mxPoint x="70" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-1" value="Price Verifier Service&lt;br style=&quot;font-size: 14px;&quot;&gt;(QA team)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="9MrjHOFnhDI7MA88cHDm-2" target="9MrjHOFnhDI7MA88cHDm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-2" value="Pubsub" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="620" y="490" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="9MrjHOFnhDI7MA88cHDm-3" target="9MrjHOFnhDI7MA88cHDm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-13" value="- Remove price&lt;br&gt;- Put pool in jail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="9MrjHOFnhDI7MA88cHDm-12">
+          <mxGeometry x="0.0615" y="2" relative="1" as="geometry">
+            <mxPoint x="62" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-3" value="Aggregator Scanner" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="940" y="240" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="9MrjHOFnhDI7MA88cHDm-4" target="9MrjHOFnhDI7MA88cHDm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-4" value="External Price Sources&lt;br&gt;(Coingecko, Coinmarketcap, ...)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-5" value="Redis&lt;br&gt;(Price Data)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="915" y="40" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9MrjHOFnhDI7MA88cHDm-6" target="9MrjHOFnhDI7MA88cHDm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-6" value="Aggregator Price API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-15" value="Consume wrong price address" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="910" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-16" value="Fetch price to compare" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="280" y="160" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MrjHOFnhDI7MA88cHDm-17" value="Fetch actual price" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="520" y="160" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
