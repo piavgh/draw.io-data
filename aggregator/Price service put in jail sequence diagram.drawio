@@ -1,1 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T06:25:54.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="iJiJcF0XXhT0U1N6zBs2" type="github"><diagram id="fBnEGWteE_EYiu45RMMV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-01T06:46:46.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="B8XeMzuw5GsSEXOvgaEs" version="20.0.4" type="github">
+  <diagram id="fBnEGWteE_EYiu45RMMV" name="Page-1">
+    <mxGraphModel dx="1901" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-1" value="External Price Sources&lt;br style=&quot;font-size: 14px;&quot;&gt;(Coingecko, Coinmarketcap, ...)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="220" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="BZiZh0U0V_w1IyX-0qlY-1">
+          <mxGeometry x="105" y="103" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="BZiZh0U0V_w1IyX-0qlY-1">
+          <mxGeometry x="107" y="224" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-2" value="Aggregator Price API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="370" y="40" width="220" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-3" value="Price Verifier Service&lt;br style=&quot;font-size: 14px;&quot;&gt;(QA team)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="220" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-12" value="compare prices&lt;br style=&quot;font-size: 14px;&quot;&gt;wrong if diff &amp;gt; 5% (% configurable)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=14;" edge="1" target="BZiZh0U0V_w1IyX-0qlY-11" parent="BZiZh0U0V_w1IyX-0qlY-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="109" y="341" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="139" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="BZiZh0U0V_w1IyX-0qlY-3">
+          <mxGeometry x="104" y="100" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="BZiZh0U0V_w1IyX-0qlY-3">
+          <mxGeometry x="104" y="361" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-4" value="Pubsub" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="40" width="220" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="BZiZh0U0V_w1IyX-0qlY-4">
+          <mxGeometry x="104" y="460" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-5" value="Aggregator Scanner" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="40" width="220" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="BZiZh0U0V_w1IyX-0qlY-5">
+          <mxGeometry x="106" y="540" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-16" value="consume wrong price address" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=14;endFill=0;startArrow=block;startFill=1;" edge="1" parent="BZiZh0U0V_w1IyX-0qlY-5" target="BZiZh0U0V_w1IyX-0qlY-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-210.00333333333356" y="560" as="sourcePoint" />
+            <mxPoint x="410.3299999999999" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-17" value="return data" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=14;startArrow=open;startFill=0;endFill=0;" edge="1" parent="BZiZh0U0V_w1IyX-0qlY-5" target="BZiZh0U0V_w1IyX-0qlY-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="610" as="sourcePoint" />
+            <mxPoint x="-200.1633333333334" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-6" value="Redis&lt;br style=&quot;font-size: 14px;&quot;&gt;(Price + ScannerState)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="40" width="220" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="BZiZh0U0V_w1IyX-0qlY-6">
+          <mxGeometry x="105" y="650" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-18" value="scannerStateRepository: put pool in jail" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="BZiZh0U0V_w1IyX-0qlY-6" source="BZiZh0U0V_w1IyX-0qlY-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-190.00333333333356" y="670" as="sourcePoint" />
+            <mxPoint x="110" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-20" value="priceRepository: remove incorrect price from Redis" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="BZiZh0U0V_w1IyX-0qlY-6" target="BZiZh0U0V_w1IyX-0qlY-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-190" y="720" as="sourcePoint" />
+            <mxPoint x="99" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-7" value="fetch price to compare" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=14;endFill=0;startArrow=block;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="280" as="sourcePoint" />
+            <mxPoint x="789.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-8" value="fetch actual price" style="html=1;verticalAlign=bottom;endArrow=none;rounded=0;fontSize=14;endFill=0;startArrow=block;startFill=1;" edge="1" parent="1" target="BZiZh0U0V_w1IyX-0qlY-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="160" as="sourcePoint" />
+            <mxPoint x="765" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-9" value="return actual price" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=14;startArrow=open;startFill=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789.5" y="201" as="sourcePoint" />
+            <mxPoint x="169.16666666666652" y="201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-10" value="return price to compare" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;rounded=0;fontSize=14;startArrow=open;startFill=0;endFill=0;" edge="1" parent="1" source="BZiZh0U0V_w1IyX-0qlY-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770.33" y="330" as="sourcePoint" />
+            <mxPoint x="170" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-14" value="publish wrong price address&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="789.1666666666665" y="515" as="sourcePoint" />
+            <mxPoint x="1109.5" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-15" value="return result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1109.5" y="555" as="sourcePoint" />
+            <mxPoint x="789.1666666666665" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZiZh0U0V_w1IyX-0qlY-21" value="return result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="1" source="BZiZh0U0V_w1IyX-0qlY-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1690.33" y="810" as="sourcePoint" />
+            <mxPoint x="1430" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
